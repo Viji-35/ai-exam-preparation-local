@@ -1,5 +1,5 @@
 export async function generateQuestions(subject) {
-  const response = await fetch("http://localhost:5000/generate-questions", {
+  const response = await fetch("https://ai-exam-preparation-local.onrender.com/generate-questions", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
